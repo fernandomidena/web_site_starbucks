@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #01bd6f, #15bd77af, #01704263);
+}
+
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+nav > a {
+    color: black;
+    border-radius: 20px;
+    font-weight: bold;
+    transition-duration: .5s;
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color: #017143;
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    width: 40%;
+}
+
+.menu {
+    width: 50%;
+    text-align: right;
+    padding-top: 35px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre {
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras {
+    position: absolute;
+    bottom: -150px;
+    right: -340px;
+    width: 950px;
+    height: 900px;
+    background-color: #017143;
+    border-radius: 50%;
+}
+
+.extras > img {
+    transform: rotate(-10deg);
+    margin-top: 150px;
+    margin-left: 32px;
+}
+
+.social-media {
+    position: absolute;
+    right: 355px;
+    top: 80px;
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 2px rgba(255, 255, 255, 0.418);
+}
+
+.social-media img {
+    display: block;
+    width: 30px;
+    margin: 20px 0;
+}
+
+.texto-sobre {
+    margin-top: -30px;
+}
+
+.texto-sobre p {
+    margin: 30px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.texto-sobre button {
+    border: 0;
+    background-color: #017143;
+    color: white;
+    border-radius: 19px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #017143;
+    font-weight: bold;
+
+}
+
+.texto-sobre button a {
+    text-decoration: none;
+    color: white;
+}
+
+.center .texto-sobre h1 {
+    font-size: 50px;
+}
+.center .texto-sobre span {
+    font-size: 60px;
+}
+
+.copos-fundo img {
+    opacity: 100%;    
+}
+
+.copos-fundo {
+    margin-left: 400px;
+    margin-top: -60px;
+}
+
+footer {
+    padding-top: 45px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #017143;
+    font-style: italic;
+}
